@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import WhyChoose from "@/components/WhyChoose";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     bg-grid-white/[0.02">
     <HeroSection/>
     <FeaturedCourses/>
+    <WhyChoose/>
     </main>
   );
 }
